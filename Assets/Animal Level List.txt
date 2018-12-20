@@ -1,0 +1,6 @@
+lvl-0 = CAT
+lvl-1 = ELEPHANT
+lvl-2 = DOG
+lvl-3 = LION
+lvl-4 = SHEEP
+

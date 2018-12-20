@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 50983995f4671d949873c53f2a4cb1e9
+timeCreated: 1539396092
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FreeVector-Cartoon-Animalscolour_0
+    21300002: FreeVector-Cartoon-Animalscolour_1
+    21300004: FreeVector-Cartoon-Animalscolour_2
+    21300006: FreeVector-Cartoon-Animalscolour_3
+    21300008: FreeVector-Cartoon-Animalscolour_4
+    21300010: FreeVector-Cartoon-Animalscolour_5
+    21300012: FreeVector-Cartoon-Animalscolour_6
+    21300014: FreeVector-Cartoon-Animalscolour_7
+    21300016: FreeVector-Cartoon-Animalscolour_8
+    21300018: FreeVector-Cartoon-Animalscolour_9
+    21300020: FreeVector-Cartoon-Animalscolour_10
+    21300022: FreeVector-Cartoon-Animalscolour_11
+    21300024: FreeVector-Cartoon-Animalscolour_12
+    21300026: FreeVector-Cartoon-Animalscolour_13
+    21300028: FreeVector-Cartoon-Animalscolour_14
+    21300030: FreeVector-Cartoon-Animalscolour_15
+    21300032: FreeVector-Cartoon-Animalscolour_16
+    21300034: FreeVector-Cartoon-Animalscolour_17
+    21300036: FreeVector-Cartoon-Animalscolour_18
+    21300038: FreeVector-Cartoon-Animalscolour_19
+    21300040: FreeVector-Cartoon-Animalscolour_20
+    21300042: FreeVector-Cartoon-Animalscolour_21
+    21300044: FreeVector-Cartoon-Animalscolour_22
+    21300046: FreeVector-Cartoon-Animalscolour_23
+    21300048: FreeVector-Cartoon-Animalscolour_24
+    21300050: FreeVector-Cartoon-Animalscolour_25
+    21300052: FreeVector-Cartoon-Animalscolour_26
+    21300054: FreeVector-Cartoon-Animalscolour_27
+    21300056: FreeVector-Cartoon-Animalscolour_28
+    21300058: FreeVector-Cartoon-Animalscolour_29
+    21300060: FreeVector-Cartoon-Animalscolour_30
+    21300062: FreeVector-Cartoon-Animalscolour_31
+    21300064: FreeVector-Cartoon-Animalscolour_32
+    21300066: FreeVector-Cartoon-Animalscolour_33
+    21300068: FreeVector-Cartoon-Animalscolour_34
+    21300070: FreeVector-Cartoon-Animalscolour_35
+    21300072: FreeVector-Cartoon-Animalscolour_36
+    21300074: FreeVector-Cartoon-Animalscolour_37
+    21300076: FreeVector-Cartoon-Animalscolour_38
+    21300078: FreeVector-Cartoon-Animalscolour_39
+    21300080: FreeVector-Cartoon-Animalscolour_40
+    21300082: FreeVector-Cartoon-Animalscolour_41
+    21300084: FreeVector-Cartoon-Animalscolour_42
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_0
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3475
+        width: 374
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_1
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 3475
+        width: 325
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_2
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3563
+        width: 369
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_3
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 3513
+        width: 372
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_4
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 3557
+        width: 374
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_5
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 3541
+        width: 374
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_6
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 1593
+        width: 1712
+        height: 2250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2754
+        width: 374
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2748
+        width: 373
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_9
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 2704
+        width: 215
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_10
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 2781
+        width: 368
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_11
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 2748
+        width: 374
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_12
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 2732
+        width: 374
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_13
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2198
+        width: 373
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_14
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2138
+        width: 369
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_15
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 2105
+        width: 369
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_16
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 2198
+        width: 369
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_17
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 2220
+        width: 373
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_18
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 2248
+        width: 374
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1538
+        width: 373
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_20
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1637
+        width: 369
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_21
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1560
+        width: 369
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_22
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1499
+        width: 368
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_23
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 1576
+        width: 373
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_24
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 1593
+        width: 374
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_25
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 900
+        width: 371
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_26
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 895
+        width: 369
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_27
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 905
+        width: 369
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_28
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 861
+        width: 280
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_29
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 960
+        width: 373
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_30
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 944
+        width: 371
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_31
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 927
+        width: 373
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_32
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 933
+        width: 372
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_33
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 950
+        width: 373
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_34
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 349
+        width: 374
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_35
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 333
+        width: 369
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_36
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 261
+        width: 369
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_37
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 165
+        width: 411
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_38
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 251
+        width: 242
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_39
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 245
+        width: 374
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_40
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 278
+        width: 363
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_41
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 366
+        width: 374
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FreeVector-Cartoon-Animalscolour_42
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 327
+        width: 373
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
