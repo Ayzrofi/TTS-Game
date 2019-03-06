@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ad89d3074fc33a440a402d0fa423b06e
+timeCreated: 1551799893
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: laCartoonerie
+  fontNames:
+  - laCartoonerie
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

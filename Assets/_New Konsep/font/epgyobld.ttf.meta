@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8ddb3ced60ce7c746af5971c36e0ecbf
+timeCreated: 1551799891
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: EPSON ???s?????a
+  fontNames:
+  - EPSON ???s?????a
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

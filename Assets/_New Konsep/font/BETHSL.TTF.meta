@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c2f42c2bc46513c4bb26b7cef5482234
+timeCreated: 1551799893
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bethany Style Letters
+  fontNames:
+  - Bethany Style Letters
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

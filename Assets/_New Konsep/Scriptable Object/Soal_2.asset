@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00720f7a4727f74b8d4fb9c2261d9cd, type: 3}
+  m_Name: Soal_2
+  m_EditorClassIdentifier: 
+  ImageSoal: {fileID: 21300072, guid: 50983995f4671d949873c53f2a4cb1e9, type: 3}
+  TextSoal: ANJING
+  SfxSoal: {fileID: 8300000, guid: fad559c7de6816e4990346e4a5366d18, type: 3}

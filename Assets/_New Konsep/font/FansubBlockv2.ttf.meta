@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a8bfbbac058d9fd42991a6e4a9444011
+timeCreated: 1551799893
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fansub Block
+  fontNames:
+  - Fansub Block
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
