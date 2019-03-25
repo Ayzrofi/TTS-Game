@@ -6,29 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/Main Menu.unity
-    guid: 87e011a129d444a4fb0bec7199670c65
+    path: Assets/_New Konsep/Scene/MainGame.unity
+    guid: 6531f12f49e0b2f47a397b09b3529795
   - enabled: 1
-    path: Assets/Scene/Credit.unity
-    guid: 1c3bd157094b1f843b40dcf384767354
-  - enabled: 1
-    path: Assets/Scene/Animal Collections.unity
-    guid: ed30b1064ae6a7b4fae9ce90cd45db26
-  - enabled: 1
-    path: Assets/Scene/Levels/Level_0.unity
-    guid: b937ce052056b8542a64eb756508ef8b
-  - enabled: 1
-    path: Assets/Scene/Levels/Level_1.unity
-    guid: 8d9671d655189664798ebdfaf8972ee0
-  - enabled: 1
-    path: Assets/Scene/Levels/Level_2.unity
-    guid: 4cff608694564d14c9a1b89f30370427
-  - enabled: 1
-    path: Assets/Scene/Levels/Level_3.unity
-    guid: 691e1e348859385449bea5a94f0ac25a
-  - enabled: 1
-    path: Assets/Scene/Levels/Level_4.unity
-    guid: ff15c9ff99c97b94abb19bfdbd04284b
-  - enabled: 1
-    path: Assets/New Test/tes.unity
-    guid: 9e851f78d0438244480141333f6ed44f
+    path: Assets/_New Konsep/Scene/Menu.unity
+    guid: f6b6d666ea8605c4eb96b80359a40a7d

@@ -6,6 +6,18 @@ using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class GameMaster : MonoBehaviour {
+    private static GameMaster instance;
+    public static GameMaster TheInstanceOfGameMaster
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<GameMaster>();
+            }
+            return instance;
+        }
+    }
 
     public AudioSource AudioSrc;
     public AudioClip ButtonsSfx;
@@ -24,10 +36,14 @@ public class GameMaster : MonoBehaviour {
     Text[] m_Huruf;
     string Kata;
     int F = 0;
+
+    private bool GameEnd;
+
     private void Awake()
     {
         if (AudioSrc == null)
             AudioSrc = GetComponent<AudioSource>();
+        GameEnd = false;
     }
 
     private void Start()
@@ -35,16 +51,48 @@ public class GameMaster : MonoBehaviour {
         CreateLevel();
     }
 
-    private void Update()
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.A))
+    //        CreateButtonsJawaban();
+
+    //    if (Input.GetKeyDown(KeyCode.S))
+    //        DeleteFieldJawaban();
+
+    //    if (Input.GetKeyDown(KeyCode.D))
+    //        ClearFieldJawban();
+    //}
+    public void NextPertanyaan()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-            CreateLevel();
+        if (Soal.Count > 0)
+        {
+            Soal.RemoveAt(SoalYangDiTampilkan);
+        }
+       
 
-        if (Input.GetKeyDown(KeyCode.S))
-            DeleteFieldJawaban();
+        if (Soal.Count > 0 && !GameEnd)
+        {
+            StartCoroutine(nextPertanyaan());
+            MainGameController.TheInstanceOfMainGameController.InitializeGame();
+            StartCoroutine(SceneController.TheInstanceOfSceneController.PlayTransisiAnimasi());
+        }
 
-        if (Input.GetKeyDown(KeyCode.D))
-            ClearFieldJawban();
+        if (Soal.Count <= 0)
+        {
+            Debug.Log("Game Finish");
+            GameEnd = true;
+        }
+    }
+
+    IEnumerator nextPertanyaan()
+    {
+        
+        yield return new WaitForSeconds(.1f);
+        DeleteFieldJawaban();
+        ClearFieldJawban();
+        yield return new WaitForSeconds(0.6f);
+        CreateLevel();
+       
     }
 
     public void CreateLevel()
@@ -60,10 +108,14 @@ public class GameMaster : MonoBehaviour {
             ButtonSoal.gameObject.GetComponent<Image>().sprite = Soal[SoalYangDiTampilkan].ImageSoal;
             ButtonSoal.gameObject.GetComponent<Image>().color = new Color32(0, 0, 0, 255);
 
+           
+
+            
+           
             //DeleteFieldJawaban();
             CreateFieldJawaban();
             CreateButtonsJawaban();
-           
+
         }
         Debug.Log(FieldJawabanTargetParent.transform.childCount);
     }
@@ -191,8 +243,6 @@ public class GameMaster : MonoBehaviour {
         }
     }
 
-   
-
     public void AddCharakter(string Charakter)
     {
 
@@ -208,7 +258,10 @@ public class GameMaster : MonoBehaviour {
             if (F >= m_Huruf.Length)
             {
                 if (Kata == Soal[SoalYangDiTampilkan].TextSoal)
+                {
                     WinGame();
+                   
+                }
                 else
                     LoseGame();
             }
@@ -232,15 +285,34 @@ public class GameMaster : MonoBehaviour {
         //}
     }
 
+
+
     public void WinGame()
     {
-        Debug.Log("You Win");
-        ButtonSoal.gameObject.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+        StartCoroutine(WinGameCheck());
+    }
+
+    IEnumerator WinGameCheck()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        //ButtonSoal.gameObject.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+        MainGameController.TheInstanceOfMainGameController.AnimalImageButtonWinMenu.onClick.AddListener(() => PlaySound(Soal[SoalYangDiTampilkan].SfxSoal));
+        MainGameController.TheInstanceOfMainGameController.AnimalImageButtonWinMenu.GetComponent<Image>().sprite = Soal[SoalYangDiTampilkan].ImageSoal;
+
+        
+
+        MainGameController.TheInstanceOfMainGameController.WinGameConditions();
+
+        //StartCoroutine(NextPertanyaan());
     }
 
     public void LoseGame()
     {
-        Debug.Log("You Lose");
+        MainGameController.TheInstanceOfMainGameController.AnimalImageLoseMenu.GetComponent<Image>().sprite = Soal[SoalYangDiTampilkan].ImageSoal;
+        MainGameController.TheInstanceOfMainGameController.AnimalImageLoseMenu.GetComponent<Image>().color = new Color32(0, 0, 0, 255);
+
+        MainGameController.TheInstanceOfMainGameController.LoseGameConditions();
+       
     }
 
     public void PlaySound(AudioClip Clip)
@@ -250,4 +322,6 @@ public class GameMaster : MonoBehaviour {
 
         AudioSrc.PlayOneShot(Clip);
     }
+
+    
 }
